@@ -1,0 +1,28 @@
+
+
+body{
+    background-color: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+.group{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1{
+    color: #17a2b8;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+
+
+}
+.form-control{
+    background-color: #24353f;
+    border: 1px solid #fff;
+}
+::placeholder{
+    color: #ffffff !important;
+}
