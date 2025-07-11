@@ -3,7 +3,7 @@ var userName = document.querySelector("userName")
 var storeUserData = JSON.parse(localStorage.getItem("userData")) || [];
 
 function logout(){
-    window.location.href = "/index.html"
+    window.location.href = "../index.html"
 }
 
 document.addEventListener("DOMContentLoaded", function() {

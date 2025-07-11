@@ -16,14 +16,14 @@ function validate( ) {
 
     if (username === "" || email === "" || password === ""){
         alert("Please fill in all fields.");
-    } else if (!passRegex.test(password)) {
+    } else if (passRegex.test(password)) {
         alert(" Invalid Password ❌  ");
     }else if (!emailRegex.test(email)) {
         alert(" Invalid Email ❌  ");
     }else {
         alert("  Done ✅  ");
             setTimeout(() => {
-        window.location.href = "/index.html"
+        window.location.href = "../index.html"
     }, 100);
     }
     }

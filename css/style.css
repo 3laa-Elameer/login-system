@@ -16,12 +16,11 @@ h1{
     font-family: inherit;
     font-weight: 500;
     line-height: 1.2;
-
-
 }
 .form-control{
     background-color: #24353f;
     border: 1px solid #fff;
+    color: #17A2B8;
 }
 ::placeholder{
     color: #ffffff !important;

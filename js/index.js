@@ -17,7 +17,7 @@ function loginUser() {
         return user.email === loginEmail && user.password === loginPassword;
     });
     if (matchedUser) {
-        window.location.href = "/html/home.html";
+        window.location.href = "../html/home.html";
     } else {
         alert(" Rag3 byanatk tany kda ❌ .");
     }
