@@ -16,7 +16,7 @@ function loginUser() {
     var matchedUser = storeUserData.find(function(user) {
         return user.email === loginEmail && user.password === loginPassword;
     });
-    if (matchedUser) {
+    if (matchedUser && matchedUser.email === loginEmail && matchedUser.password === loginPassword) {
         window.location.href = "../html/home.html";
     } else {
         alert(" Rag3 byanatk tany kda ❌ .");
