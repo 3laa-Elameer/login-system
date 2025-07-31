@@ -2,12 +2,12 @@ var loginBtn = document.getElementById("loginBtn");
 var signUpLink = document.querySelector(".signUpLink");
 
 loginBtn.addEventListener("click", function() {
-  loginUser();
+    loginUser();
 });
 
-signUpLink.addEventListener("click", function(){
-    console.log("SignUp button clicked");
-})
+// signUpLink.addEventListener("click", function(){
+//     console.log("SignUp button clicked");
+// })
 
 function loginUser() {
     var loginEmail = document.getElementById("email").value.trim().toLowerCase();
